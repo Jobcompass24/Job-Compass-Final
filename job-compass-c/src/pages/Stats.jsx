@@ -8,7 +8,7 @@ import {
     Area,
     XAxis,
     YAxis,
-    CartesianAxis,
+    // CartesianAxis,
     Tooltip,
     CartesianGrid,
     BarChart,

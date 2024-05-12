@@ -13,6 +13,9 @@ import { useUserContext } from "../context/UserContext";
 
 import advancedFormat from "dayjs/plugin/advancedFormat";
 import dayjs from "dayjs";
+
+// profile page for 3 different role (admin, user, recruiter)
+
 dayjs.extend(advancedFormat);
 
 const Profile = () => {
@@ -36,12 +39,7 @@ const Profile = () => {
                                     edit
                                 </span>
                             </Link>
-                            {/* <Link to="" className="flex items-center mt-3">
-                                <GrPowerReset />
-                                <span className="text-xs capitalize ml-1 font-medium ">
-                                    Reset Password
-                                </span>
-                            </Link> */}
+                        
                         </div>
                     </div>
                     <table className="information-table">
@@ -75,16 +73,9 @@ const Profile = () => {
                         </tbody>
                     </table>
                 </div>
-                {/* <p className="resume text-justify">
-                    <span className="info">resume</span>
-                    <span className="value overflow-hidden">
-                        {user?.resume}
-                    </span>
-                </p> */}
+                
             </div>
-            {/* <div className="wrapper">
-                <h5 className="title">Reset Password</h5>
-            </div> */}
+            
         </Wrapper>
     );
 };

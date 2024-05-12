@@ -13,8 +13,7 @@ dayjs.extend(advancedFormat);
 import { MdAccessTime } from "react-icons/md";
 import Navbar from "../components/shared/Navbar";
 
-// import advancedFormat from "dayjs/plugin/advancedFormat";
-// import dayjs from "dayjs";
+// job cards are here
 dayjs.extend(advancedFormat);
 
 const Job = () => {
@@ -40,9 +39,7 @@ const Job = () => {
     if (isError) {
         return <h2 className="">{error?.message}</h2>;
     }
-    // if (job) {
-    //     console.log(job.result);
-    // }
+    
     return (
         <>
             <Navbar />

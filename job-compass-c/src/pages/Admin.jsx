@@ -4,6 +4,8 @@ import styled from "styled-components";
 import { getAllHandler } from "../utils/FetchHandlers";
 import LoadingComTwo from "../components/shared/LoadingComTwo";
 
+// admin page where we can see our page info like how many people have in our site
+
 const Admin = () => {
     const { isPending, isError, data, error } = useQuery({
         queryKey: ["admin_info"],
