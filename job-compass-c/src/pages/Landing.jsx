@@ -22,11 +22,12 @@ const Landing = () => {
                             Today!
                         </h1>
                         <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit. Illo perferendis dignissimos eligendi voluptas
-                            exercitationem, eius aut mollitia quasi nisi
-                            voluptatem similique, tempore totam, odit
-                            repellendus non. Dolores eos animi recusandae.
+                        Welcome to Job Compass, your trusted guide to navigating the professional landscape.
+                        Our platform is designed to empower job seekers like you with the tools and resources needed to find the perfect opportunity.
+                        </p> <p>
+                        With Job Compass, you can explore a vast array of job listings from top companies across industries,
+                        all in one convenient location. Our intuitive search filters and personalized recommendations ensure that you discover roles that align with your skills,
+                        experience, and career goals.
                         </p>
                         <div className="btn-grp">
                             <Link className="btn" to="/all-jobs">
