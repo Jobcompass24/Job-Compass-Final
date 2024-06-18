@@ -9,6 +9,8 @@ import { getAllHandler } from "../utils/FetchHandlers";
 import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
 
+//admin manage user page
+
 const ManageUsers = () => {
     const { user: me } = useUserContext();
     const {

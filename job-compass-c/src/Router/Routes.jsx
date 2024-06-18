@@ -2,6 +2,8 @@ import { createBrowserRouter } from "react-router-dom";
 import HomeLayout from "../Layout/HomeLayout";
 import DashboardLayout from "../Layout/DashboardLayout";
 
+// front end routing part
+
 // Pages
 import {
     Register,

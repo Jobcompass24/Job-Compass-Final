@@ -15,25 +15,14 @@ import { useNavigate, useParams } from "react-router-dom";
 import axios from "axios";
 import { useUserContext } from "../context/UserContext";
 
+// edit profile page where we have to submit our cv link , gender , location etc
+
 const EditProfile = () => {
     const { id } = useParams();
     const { user, handleFetchMe } = useUserContext();
     const navigate = useNavigate();
 
-    // const {
-    //     isPending,
-    //     isError,
-    //     data: profile,
-    //     error,
-    // } = useQuery({
-    //     queryKey: ["profile"],
-    //     queryFn: async () => {
-    //         const response = await axios.get(
-    //             `http://localhost:3000/api/v1/users/${id}`
-    //         );
-    //         return response.data;
-    //     },
-    // });
+    
     const {
         register,
         handleSubmit,
@@ -84,15 +73,7 @@ const EditProfile = () => {
         }
     };
 
-    // if (isPending) {
-    //     return <LoadingComTwo />;
-    // }
-    // if (isError) {
-    //     return <h2 className="">{error?.message}</h2>;
-    // }
-    // if (profile) {
-    //     console.log(profile);
-    // }
+   
     return (
         <Wrapper>
             <div className="">

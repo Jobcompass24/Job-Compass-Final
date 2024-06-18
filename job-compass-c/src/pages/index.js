@@ -1,3 +1,5 @@
+//exporting and connecting
+
 export { default as AddJob } from "./AddJob";
 export { default as Admin } from "./Admin";
 export { default as AllJobs } from "./AllJobs";
