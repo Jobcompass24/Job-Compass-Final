@@ -28,6 +28,7 @@ const Landing = () => {
                         Whether you're a job seeker looking to explore new horizons or an employer seeking the perfect candidate,
                         Job Compass offers intuitive features designed to enhance your experience. 
                         Join us on this journey to simplify job hunting and connect talent with opportunity seamlessly
+                        </p>
                         <div className="btn-grp">
                             <Link className="btn" to="/all-jobs">
                                 Apply Now
